@@ -244,13 +244,11 @@ h2 {
   object-fit: cover;
   display: block;
   border-bottom: 1px solid rgba(255,255,255,0.06);
-  opacity: 0;
-  transform: translateX(-120px);
-  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  transform: translateX(-100%);
+  transition: transform 0.6s ease-out;
 }
 
-.project-image.visible {
-  opacity: 1;
+.project-image.slide-in {
   transform: translateX(0);
 }
 
